@@ -32,12 +32,17 @@
 		B8B0A93E1FC9AA47008D7CE5 /* Webp.net-resizeimage-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9341FC9AA47008D7CE5 /* Webp.net-resizeimage-2.png */; };
 		B8B0A93F1FC9AA47008D7CE5 /* Webp.net-resizeimage.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9351FC9AA47008D7CE5 /* Webp.net-resizeimage.png */; };
 		B8B0A9411FC9AF74008D7CE5 /* notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A9401FC9AF74008D7CE5 /* notes.swift */; };
-		B8B0A9461FC9C0A8008D7CE5 /* icons8-hospital-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9421FC9C0A7008D7CE5 /* icons8-hospital-filled-50.png */; };
 		B8B0A9471FC9C0A8008D7CE5 /* icons8-car-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9431FC9C0A7008D7CE5 /* icons8-car-50.png */; };
 		B8B0A9481FC9C0A8008D7CE5 /* icons8-home-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9441FC9C0A7008D7CE5 /* icons8-home-filled-50.png */; };
 		B8B0A9491FC9C0A8008D7CE5 /* icons8-motorcycle-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9451FC9C0A8008D7CE5 /* icons8-motorcycle-filled-50.png */; };
 		B8B0A94B1FC9C979008D7CE5 /* AddNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A94A1FC9C979008D7CE5 /* AddNote.swift */; };
 		B8B0A94D1FC9CCCE008D7CE5 /* NoteDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A94C1FC9CCCE008D7CE5 /* NoteDetail.swift */; };
+		B8B0A94F1FC9FB96008D7CE5 /* PosOfInsuringTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A94E1FC9FB96008D7CE5 /* PosOfInsuringTableViewController.swift */; };
+		B8B0A9551FC9FE0F008D7CE5 /* icons8-heart-with-pulse-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9501FC9FE0E008D7CE5 /* icons8-heart-with-pulse-filled-50.png */; };
+		B8B0A9561FC9FE0F008D7CE5 /* icons8-motorcycle-filled-50rrr.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9511FC9FE0E008D7CE5 /* icons8-motorcycle-filled-50rrr.png */; };
+		B8B0A9571FC9FE0F008D7CE5 /* icons8-home-filled-50rrr.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9521FC9FE0E008D7CE5 /* icons8-home-filled-50rrr.png */; };
+		B8B0A9581FC9FE0F008D7CE5 /* icons8-heart-with-pulse-filled-50 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9531FC9FE0E008D7CE5 /* icons8-heart-with-pulse-filled-50 (2).png */; };
+		B8B0A9591FC9FE0F008D7CE5 /* icons8-car-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9541FC9FE0E008D7CE5 /* icons8-car-filled-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,12 +75,17 @@
 		B8B0A9341FC9AA47008D7CE5 /* Webp.net-resizeimage-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage-2.png"; sourceTree = "<group>"; };
 		B8B0A9351FC9AA47008D7CE5 /* Webp.net-resizeimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage.png"; sourceTree = "<group>"; };
 		B8B0A9401FC9AF74008D7CE5 /* notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notes.swift; sourceTree = "<group>"; };
-		B8B0A9421FC9C0A7008D7CE5 /* icons8-hospital-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-hospital-filled-50.png"; sourceTree = "<group>"; };
 		B8B0A9431FC9C0A7008D7CE5 /* icons8-car-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-car-50.png"; sourceTree = "<group>"; };
 		B8B0A9441FC9C0A7008D7CE5 /* icons8-home-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home-filled-50.png"; sourceTree = "<group>"; };
 		B8B0A9451FC9C0A8008D7CE5 /* icons8-motorcycle-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-motorcycle-filled-50.png"; sourceTree = "<group>"; };
 		B8B0A94A1FC9C979008D7CE5 /* AddNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNote.swift; sourceTree = "<group>"; };
 		B8B0A94C1FC9CCCE008D7CE5 /* NoteDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetail.swift; sourceTree = "<group>"; };
+		B8B0A94E1FC9FB96008D7CE5 /* PosOfInsuringTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosOfInsuringTableViewController.swift; sourceTree = "<group>"; };
+		B8B0A9501FC9FE0E008D7CE5 /* icons8-heart-with-pulse-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-heart-with-pulse-filled-50.png"; sourceTree = "<group>"; };
+		B8B0A9511FC9FE0E008D7CE5 /* icons8-motorcycle-filled-50rrr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-motorcycle-filled-50rrr.png"; path = "../../../../Downloads/icons8-motorcycle-filled-50rrr.png"; sourceTree = "<group>"; };
+		B8B0A9521FC9FE0E008D7CE5 /* icons8-home-filled-50rrr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-home-filled-50rrr.png"; path = "../../../../Downloads/icons8-home-filled-50rrr.png"; sourceTree = "<group>"; };
+		B8B0A9531FC9FE0E008D7CE5 /* icons8-heart-with-pulse-filled-50 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-heart-with-pulse-filled-50 (2).png"; sourceTree = "<group>"; };
+		B8B0A9541FC9FE0E008D7CE5 /* icons8-car-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-car-filled-50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +138,7 @@
 		B8B0A8FB1FC97D77008D7CE5 /* Insurhelp */ = {
 			isa = PBXGroup;
 			children = (
+				B8B0A94E1FC9FB96008D7CE5 /* PosOfInsuringTableViewController.swift */,
 				B8B0A94C1FC9CCCE008D7CE5 /* NoteDetail.swift */,
 				B8B0A94A1FC9C979008D7CE5 /* AddNote.swift */,
 				B8B0A9401FC9AF74008D7CE5 /* notes.swift */,
@@ -160,9 +171,13 @@
 		B8B0A92B1FC9AA47008D7CE5 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				B8B0A9541FC9FE0E008D7CE5 /* icons8-car-filled-50.png */,
+				B8B0A9531FC9FE0E008D7CE5 /* icons8-heart-with-pulse-filled-50 (2).png */,
+				B8B0A9501FC9FE0E008D7CE5 /* icons8-heart-with-pulse-filled-50.png */,
+				B8B0A9521FC9FE0E008D7CE5 /* icons8-home-filled-50rrr.png */,
+				B8B0A9511FC9FE0E008D7CE5 /* icons8-motorcycle-filled-50rrr.png */,
 				B8B0A9431FC9C0A7008D7CE5 /* icons8-car-50.png */,
 				B8B0A9441FC9C0A7008D7CE5 /* icons8-home-filled-50.png */,
-				B8B0A9421FC9C0A7008D7CE5 /* icons8-hospital-filled-50.png */,
 				B8B0A9451FC9C0A8008D7CE5 /* icons8-motorcycle-filled-50.png */,
 				B8B0A92C1FC9AA47008D7CE5 /* 575934-200a1.png */,
 				B8B0A92D1FC9AA47008D7CE5 /* ambulance-icon-86015.png */,
@@ -241,8 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B0A93C1FC9AA47008D7CE5 /* Home-icon_svg.png in Resources */,
+				B8B0A9591FC9FE0F008D7CE5 /* icons8-car-filled-50.png in Resources */,
 				B8B0A93E1FC9AA47008D7CE5 /* Webp.net-resizeimage-2.png in Resources */,
-				B8B0A9461FC9C0A8008D7CE5 /* icons8-hospital-filled-50.png in Resources */,
 				B8B0A90A1FC97D77008D7CE5 /* LaunchScreen.storyboard in Resources */,
 				B8B0A9391FC9AA47008D7CE5 /* exclamation-mark-98739_960_720a1 12-50-51-105.png in Resources */,
 				B8B0A9281FC9AA2F008D7CE5 /* feEBsVSI.jpg in Resources */,
@@ -253,12 +268,16 @@
 				B8B0A93A1FC9AA47008D7CE5 /* fire.png in Resources */,
 				B8B0A9291FC9AA2F008D7CE5 /* ING_lion_RGB_200x200.png in Resources */,
 				B8B0A9471FC9C0A8008D7CE5 /* icons8-car-50.png in Resources */,
+				B8B0A9571FC9FE0F008D7CE5 /* icons8-home-filled-50rrr.png in Resources */,
 				B8B0A9361FC9AA47008D7CE5 /* 575934-200a1.png in Resources */,
 				B8B0A93D1FC9AA47008D7CE5 /* police-car-icon-5642-0.png in Resources */,
+				B8B0A9561FC9FE0F008D7CE5 /* icons8-motorcycle-filled-50rrr.png in Resources */,
 				B8B0A93F1FC9AA47008D7CE5 /* Webp.net-resizeimage.png in Resources */,
 				B8B0A9071FC97D77008D7CE5 /* Assets.xcassets in Resources */,
 				B8B0A9371FC9AA47008D7CE5 /* ambulance-icon-86015.png in Resources */,
+				B8B0A9581FC9FE0F008D7CE5 /* icons8-heart-with-pulse-filled-50 (2).png in Resources */,
 				B8B0A9481FC9C0A8008D7CE5 /* icons8-home-filled-50.png in Resources */,
+				B8B0A9551FC9FE0F008D7CE5 /* icons8-heart-with-pulse-filled-50.png in Resources */,
 				B8B0A9021FC97D77008D7CE5 /* Main.storyboard in Resources */,
 				B8B0A9381FC9AA47008D7CE5 /* Elliot_Grievesona1.png in Resources */,
 			);
@@ -328,6 +347,7 @@
 				B8B0A91F1FC9A1ED008D7CE5 /* EmergTableViewController.swift in Sources */,
 				B8B0A9191FC986E2008D7CE5 /* Login.swift in Sources */,
 				B8B0A9131FC9844F008D7CE5 /* Accident.swift in Sources */,
+				B8B0A94F1FC9FB96008D7CE5 /* PosOfInsuringTableViewController.swift in Sources */,
 				B8B0A9211FC9A21C008D7CE5 /* EmergOther.swift in Sources */,
 				B8B0A94D1FC9CCCE008D7CE5 /* NoteDetail.swift in Sources */,
 				B8B0A8FD1FC97D77008D7CE5 /* AppDelegate.swift in Sources */,

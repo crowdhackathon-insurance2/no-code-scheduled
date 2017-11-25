@@ -10,6 +10,5 @@ target 'Insurhelp' do
 	pod 'Firebase/Database'
 	pod 'Firebase/Auth'
 	pod 'Firebase/Core'
-	pod 'GoogleMaps'
 
 end

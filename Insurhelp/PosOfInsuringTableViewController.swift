@@ -1,5 +1,5 @@
 //
-//  notes.swift
+//  PosOfInsuringTableViewController.swift
 //  Insurhelp
 //
 //  Created by George on 25/11/2017.
@@ -7,26 +7,33 @@
 //
 
 import UIKit
-import FirebaseDatabase
-import FirebaseAuth
 
-class notesen: UITableViewCell{
+class PosCellInsuring: UITableViewCell {
     
+    
+    @IBOutlet var vtype: UILabel!
     @IBOutlet var img: UIImageView!
+    @IBOutlet var desc: UILabel!
     
-    @IBOutlet var property: UILabel!
-    @IBOutlet var title: UILabel!
 }
 
-class notes: UITableViewController {
+class PosOfInsuringTableViewController: UITableViewController {
 
-    
-    var ref:FIRDatabaseReference!
+    let types = ["Car","Motorcycle","Health","Home"]
+    let adesc = ["","","",""]
+    let imga = [#imageLiteral(resourceName: "icons8-car-filled-50.png"),#imageLiteral(resourceName: "icons8-motorcycle-filled-50rrr.png"),#imageLiteral(resourceName: "icons8-heart-with-pulse-filled-50.png"),#imageLiteral(resourceName: "icons8-home-filled-50rrr.png")]
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        ref = FIRDatabase.database().reference()
+        let h: CGFloat = self.view!.bounds.height
+        let h2: CGFloat = self.tabBarController!.tabBar.frame.height
+        let h3: CGFloat = (self.navigationController?.navigationBar.frame.height)!
+        let reald: CGFloat = (((h-h2)-h3)/4 ) - 10
+        tableView.rowHeight = reald
+        
     }
+
 
     // MARK: - Table view data source
 
@@ -37,29 +44,21 @@ class notes: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return (NoteDic?["Num"] as! Int) + 1
+        return types.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? notesen
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? PosCellInsuring
 
-        let note = NoteDic[String(describing: indexPath.row)] as! NSDictionary
-        cell?.title.text = note["name"] as! String
-        let type = note["type"] as! String
-        if type == "Car"{
-            cell?.img.image = #imageLiteral(resourceName: "icons8-car-50.png")
-        }else if (type == "Bikecycle"){
-            cell?.img.image = #imageLiteral(resourceName: "icons8-motorcycle-filled-50.png")
-        }else if (type == "Health"){
-            cell?.img.image = #imageLiteral(resourceName: "icons8-heart-with-pulse-filled-50 (2).png")
-        }else if (type == "Home"){
-            cell?.img.image = #imageLiteral(resourceName: "icons8-home-filled-50.png")
-        }
+        cell?.vtype.text = types[indexPath.row]
+        cell?.desc.text = adesc[indexPath.row]
+        cell?.img.image = imga[indexPath.row]
 
         return cell!
     }
     
+
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
