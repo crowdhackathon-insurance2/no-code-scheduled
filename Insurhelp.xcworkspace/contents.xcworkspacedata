@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/georgezaimis/Documents/DEV. FILS/Insurhelp/Insurhelp/Account.swift">
-   </FileRef>
-   <FileRef
       location = "group:Insurhelp.xcodeproj">
    </FileRef>
    <FileRef
