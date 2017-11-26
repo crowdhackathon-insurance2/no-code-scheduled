@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B81B66281FCAA4700038B0AD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B66271FCAA4700038B0AD /* Home.swift */; };
+		B81B662C1FCAADC90038B0AD /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B662B1FCAADC90038B0AD /* News.swift */; };
 		B8A762EB1FCA3607001E158C /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A762EA1FCA3607001E158C /* Validate.swift */; };
 		B8B0A8FD1FC97D77008D7CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A8FC1FC97D77008D7CE5 /* AppDelegate.swift */; };
 		B8B0A9021FC97D77008D7CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9001FC97D77008D7CE5 /* Main.storyboard */; };
@@ -51,11 +53,15 @@
 		B8B0A9771FCA23CC008D7CE5 /* Screen Shot 2017-11-26 at 00.18.28.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9761FCA23CB008D7CE5 /* Screen Shot 2017-11-26 at 00.18.28.png */; };
 		B8B0A9791FCA24D8008D7CE5 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A9781FCA24D8008D7CE5 /* Info.swift */; };
 		B8D0F2101FCA283F0032B508 /* anytime-btm-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D0F20F1FCA283F0032B508 /* anytime-btm-logo.png */; };
+		DE44AF8D694B28C05CAF405A /* Pods_Insurhelp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6F10168F92D5475FF068AD /* Pods_Insurhelp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		059E773E3443E906597B98BD /* Pods-Insurhelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insurhelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp.release.xcconfig"; sourceTree = "<group>"; };
+		1C6F10168F92D5475FF068AD /* Pods_Insurhelp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insurhelp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F6ED4B3985498C65E2DC681 /* Pods-Insurhelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insurhelp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp.debug.xcconfig"; sourceTree = "<group>"; };
+		B81B66271FCAA4700038B0AD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B81B662B1FCAADC90038B0AD /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		B8A762EA1FCA3607001E158C /* Validate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validate.swift; sourceTree = "<group>"; };
 		B8B0A8F91FC97D77008D7CE5 /* Insurhelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insurhelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B0A8FC1FC97D77008D7CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE44AF8D694B28C05CAF405A /* Pods_Insurhelp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +125,7 @@
 		6200F58326B0BE6037712C0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1C6F10168F92D5475FF068AD /* Pods_Insurhelp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,6 +162,8 @@
 		B8B0A8FB1FC97D77008D7CE5 /* Insurhelp */ = {
 			isa = PBXGroup;
 			children = (
+				B81B662B1FCAADC90038B0AD /* News.swift */,
+				B81B66271FCAA4700038B0AD /* Home.swift */,
 				B8A762EA1FCA3607001E158C /* Validate.swift */,
 				B8B0A9781FCA24D8008D7CE5 /* Info.swift */,
 				B8B0A95A1FCA1712008D7CE5 /* SelectCompany.swift */,
@@ -321,9 +331,18 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -375,11 +394,13 @@
 			files = (
 				B8B0A91F1FC9A1ED008D7CE5 /* EmergTableViewController.swift in Sources */,
 				B8B0A9191FC986E2008D7CE5 /* Login.swift in Sources */,
+				B81B662C1FCAADC90038B0AD /* News.swift in Sources */,
 				B8B0A9131FC9844F008D7CE5 /* Accident.swift in Sources */,
 				B8B0A9791FCA24D8008D7CE5 /* Info.swift in Sources */,
 				B8B0A94F1FC9FB96008D7CE5 /* PosOfInsuringTableViewController.swift in Sources */,
 				B8B0A9211FC9A21C008D7CE5 /* EmergOther.swift in Sources */,
 				B8B0A95B1FCA1712008D7CE5 /* SelectCompany.swift in Sources */,
+				B81B66281FCAA4700038B0AD /* Home.swift in Sources */,
 				B8B0A94D1FC9CCCE008D7CE5 /* NoteDetail.swift in Sources */,
 				B8B0A8FD1FC97D77008D7CE5 /* AppDelegate.swift in Sources */,
 				B8A762EB1FCA3607001E158C /* Validate.swift in Sources */,

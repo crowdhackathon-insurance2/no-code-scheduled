@@ -11,3 +11,5 @@ import Foundation
 public var UserDic: NSDictionary!
 public var AccidentDic : NSDictionary!
 public var NoteDic: NSDictionary!
+public var jsong: NSDictionary!
+

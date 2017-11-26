@@ -20,10 +20,30 @@ class Login: UIViewController {
     var timer: Timer?
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let url = URL(string: "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=48ec04b68ec64f2f8df05bca367704ab&q=car&sort=newest")
+        URLSession.shared.dataTask(with: url!, completionHandler: {
+            (data, response, error) in
+            if(error != nil){
+                print("error")
+            }else{
+                do{
+                    let json = try JSONSerialization.jsonObject(with: data!, options:.allowFragments) as! [String : AnyObject]
+                    
+                    OperationQueue.main.addOperation({
+                        jsong = json["response"] as! NSDictionary
+                        print(jsong)
+                    })
+                    
+                }catch let error as NSError{
+                    print(error)
+                }
+            }
+        }).resume()
 
         
         ref = FIRDatabase.database().reference()
-        LogIn(self.view)
+        //LogIn(self.view)
         
     }
 
