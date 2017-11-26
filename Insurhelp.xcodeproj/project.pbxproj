@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8A762EB1FCA3607001E158C /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A762EA1FCA3607001E158C /* Validate.swift */; };
 		B8B0A8FD1FC97D77008D7CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A8FC1FC97D77008D7CE5 /* AppDelegate.swift */; };
 		B8B0A9021FC97D77008D7CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9001FC97D77008D7CE5 /* Main.storyboard */; };
 		B8B0A9051FC97D77008D7CE5 /* Insurhelp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A9031FC97D77008D7CE5 /* Insurhelp.xcdatamodeld */; };
@@ -32,22 +33,30 @@
 		B8B0A93E1FC9AA47008D7CE5 /* Webp.net-resizeimage-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9341FC9AA47008D7CE5 /* Webp.net-resizeimage-2.png */; };
 		B8B0A93F1FC9AA47008D7CE5 /* Webp.net-resizeimage.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9351FC9AA47008D7CE5 /* Webp.net-resizeimage.png */; };
 		B8B0A9411FC9AF74008D7CE5 /* notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A9401FC9AF74008D7CE5 /* notes.swift */; };
-		B8B0A9471FC9C0A8008D7CE5 /* icons8-car-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9431FC9C0A7008D7CE5 /* icons8-car-50.png */; };
-		B8B0A9481FC9C0A8008D7CE5 /* icons8-home-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9441FC9C0A7008D7CE5 /* icons8-home-filled-50.png */; };
-		B8B0A9491FC9C0A8008D7CE5 /* icons8-motorcycle-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9451FC9C0A8008D7CE5 /* icons8-motorcycle-filled-50.png */; };
 		B8B0A94B1FC9C979008D7CE5 /* AddNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A94A1FC9C979008D7CE5 /* AddNote.swift */; };
 		B8B0A94D1FC9CCCE008D7CE5 /* NoteDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A94C1FC9CCCE008D7CE5 /* NoteDetail.swift */; };
 		B8B0A94F1FC9FB96008D7CE5 /* PosOfInsuringTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A94E1FC9FB96008D7CE5 /* PosOfInsuringTableViewController.swift */; };
-		B8B0A9551FC9FE0F008D7CE5 /* icons8-heart-with-pulse-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9501FC9FE0E008D7CE5 /* icons8-heart-with-pulse-filled-50.png */; };
-		B8B0A9561FC9FE0F008D7CE5 /* icons8-motorcycle-filled-50rrr.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9511FC9FE0E008D7CE5 /* icons8-motorcycle-filled-50rrr.png */; };
-		B8B0A9571FC9FE0F008D7CE5 /* icons8-home-filled-50rrr.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9521FC9FE0E008D7CE5 /* icons8-home-filled-50rrr.png */; };
-		B8B0A9581FC9FE0F008D7CE5 /* icons8-heart-with-pulse-filled-50 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9531FC9FE0E008D7CE5 /* icons8-heart-with-pulse-filled-50 (2).png */; };
-		B8B0A9591FC9FE0F008D7CE5 /* icons8-car-filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9541FC9FE0E008D7CE5 /* icons8-car-filled-50.png */; };
+		B8B0A95B1FCA1712008D7CE5 /* SelectCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A95A1FCA1712008D7CE5 /* SelectCompany.swift */; };
+		B8B0A9611FCA1D20008D7CE5 /* axa_logo_solid_208.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9601FCA1D20008D7CE5 /* axa_logo_solid_208.png */; };
+		B8B0A9631FCA1D40008D7CE5 /* mm_logo-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9621FCA1D40008D7CE5 /* mm_logo-01.png */; };
+		B8B0A9651FCA1D80008D7CE5 /* EUROLIFEfairfax-logo-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9641FCA1D80008D7CE5 /* EUROLIFEfairfax-logo-01.png */; };
+		B8B0A96E1FCA21C7008D7CE5 /* car rounf.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9661FCA21C0008D7CE5 /* car rounf.png */; };
+		B8B0A96F1FCA21C7008D7CE5 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9671FCA21C1008D7CE5 /* home.png */; };
+		B8B0A9701FCA21C7008D7CE5 /* bike.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9681FCA21C2008D7CE5 /* bike.png */; };
+		B8B0A9711FCA21C7008D7CE5 /* health.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9691FCA21C3008D7CE5 /* health.png */; };
+		B8B0A9721FCA21C7008D7CE5 /* home round.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A96A1FCA21C4008D7CE5 /* home round.png */; };
+		B8B0A9731FCA21C7008D7CE5 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A96B1FCA21C5008D7CE5 /* car.png */; };
+		B8B0A9741FCA21C7008D7CE5 /* health round.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A96C1FCA21C6008D7CE5 /* health round.png */; };
+		B8B0A9751FCA21C7008D7CE5 /* bike round.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A96D1FCA21C7008D7CE5 /* bike round.png */; };
+		B8B0A9771FCA23CC008D7CE5 /* Screen Shot 2017-11-26 at 00.18.28.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9761FCA23CB008D7CE5 /* Screen Shot 2017-11-26 at 00.18.28.png */; };
+		B8B0A9791FCA24D8008D7CE5 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A9781FCA24D8008D7CE5 /* Info.swift */; };
+		B8D0F2101FCA283F0032B508 /* anytime-btm-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D0F20F1FCA283F0032B508 /* anytime-btm-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		059E773E3443E906597B98BD /* Pods-Insurhelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insurhelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp.release.xcconfig"; sourceTree = "<group>"; };
 		2F6ED4B3985498C65E2DC681 /* Pods-Insurhelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insurhelp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp.debug.xcconfig"; sourceTree = "<group>"; };
+		B8A762EA1FCA3607001E158C /* Validate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validate.swift; sourceTree = "<group>"; };
 		B8B0A8F91FC97D77008D7CE5 /* Insurhelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insurhelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B0A8FC1FC97D77008D7CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8B0A9011FC97D77008D7CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,17 +84,24 @@
 		B8B0A9341FC9AA47008D7CE5 /* Webp.net-resizeimage-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage-2.png"; sourceTree = "<group>"; };
 		B8B0A9351FC9AA47008D7CE5 /* Webp.net-resizeimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage.png"; sourceTree = "<group>"; };
 		B8B0A9401FC9AF74008D7CE5 /* notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notes.swift; sourceTree = "<group>"; };
-		B8B0A9431FC9C0A7008D7CE5 /* icons8-car-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-car-50.png"; sourceTree = "<group>"; };
-		B8B0A9441FC9C0A7008D7CE5 /* icons8-home-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-home-filled-50.png"; sourceTree = "<group>"; };
-		B8B0A9451FC9C0A8008D7CE5 /* icons8-motorcycle-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-motorcycle-filled-50.png"; sourceTree = "<group>"; };
 		B8B0A94A1FC9C979008D7CE5 /* AddNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNote.swift; sourceTree = "<group>"; };
 		B8B0A94C1FC9CCCE008D7CE5 /* NoteDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetail.swift; sourceTree = "<group>"; };
 		B8B0A94E1FC9FB96008D7CE5 /* PosOfInsuringTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosOfInsuringTableViewController.swift; sourceTree = "<group>"; };
-		B8B0A9501FC9FE0E008D7CE5 /* icons8-heart-with-pulse-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-heart-with-pulse-filled-50.png"; sourceTree = "<group>"; };
-		B8B0A9511FC9FE0E008D7CE5 /* icons8-motorcycle-filled-50rrr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-motorcycle-filled-50rrr.png"; path = "../../../../Downloads/icons8-motorcycle-filled-50rrr.png"; sourceTree = "<group>"; };
-		B8B0A9521FC9FE0E008D7CE5 /* icons8-home-filled-50rrr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icons8-home-filled-50rrr.png"; path = "../../../../Downloads/icons8-home-filled-50rrr.png"; sourceTree = "<group>"; };
-		B8B0A9531FC9FE0E008D7CE5 /* icons8-heart-with-pulse-filled-50 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-heart-with-pulse-filled-50 (2).png"; sourceTree = "<group>"; };
-		B8B0A9541FC9FE0E008D7CE5 /* icons8-car-filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-car-filled-50.png"; sourceTree = "<group>"; };
+		B8B0A95A1FCA1712008D7CE5 /* SelectCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCompany.swift; sourceTree = "<group>"; };
+		B8B0A9601FCA1D20008D7CE5 /* axa_logo_solid_208.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = axa_logo_solid_208.png; sourceTree = "<group>"; };
+		B8B0A9621FCA1D40008D7CE5 /* mm_logo-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mm_logo-01.png"; sourceTree = "<group>"; };
+		B8B0A9641FCA1D80008D7CE5 /* EUROLIFEfairfax-logo-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EUROLIFEfairfax-logo-01.png"; sourceTree = "<group>"; };
+		B8B0A9661FCA21C0008D7CE5 /* car rounf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car rounf.png"; sourceTree = "<group>"; };
+		B8B0A9671FCA21C1008D7CE5 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		B8B0A9681FCA21C2008D7CE5 /* bike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bike.png; sourceTree = "<group>"; };
+		B8B0A9691FCA21C3008D7CE5 /* health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = health.png; sourceTree = "<group>"; };
+		B8B0A96A1FCA21C4008D7CE5 /* home round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home round.png"; sourceTree = "<group>"; };
+		B8B0A96B1FCA21C5008D7CE5 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		B8B0A96C1FCA21C6008D7CE5 /* health round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "health round.png"; sourceTree = "<group>"; };
+		B8B0A96D1FCA21C7008D7CE5 /* bike round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike round.png"; sourceTree = "<group>"; };
+		B8B0A9761FCA23CB008D7CE5 /* Screen Shot 2017-11-26 at 00.18.28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-26 at 00.18.28.png"; sourceTree = "<group>"; };
+		B8B0A9781FCA24D8008D7CE5 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		B8D0F20F1FCA283F0032B508 /* anytime-btm-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "anytime-btm-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +154,9 @@
 		B8B0A8FB1FC97D77008D7CE5 /* Insurhelp */ = {
 			isa = PBXGroup;
 			children = (
+				B8A762EA1FCA3607001E158C /* Validate.swift */,
+				B8B0A9781FCA24D8008D7CE5 /* Info.swift */,
+				B8B0A95A1FCA1712008D7CE5 /* SelectCompany.swift */,
 				B8B0A94E1FC9FB96008D7CE5 /* PosOfInsuringTableViewController.swift */,
 				B8B0A94C1FC9CCCE008D7CE5 /* NoteDetail.swift */,
 				B8B0A94A1FC9C979008D7CE5 /* AddNote.swift */,
@@ -161,9 +180,14 @@
 		B8B0A9241FC9AA2E008D7CE5 /* Pic */ = {
 			isa = PBXGroup;
 			children = (
+				B8B0A9621FCA1D40008D7CE5 /* mm_logo-01.png */,
 				B8B0A9251FC9AA2E008D7CE5 /* feEBsVSI.jpg */,
 				B8B0A9261FC9AA2E008D7CE5 /* ING_lion_RGB_200x200.png */,
+				B8B0A9761FCA23CB008D7CE5 /* Screen Shot 2017-11-26 at 00.18.28.png */,
+				B8B0A9641FCA1D80008D7CE5 /* EUROLIFEfairfax-logo-01.png */,
 				B8B0A9271FC9AA2E008D7CE5 /* print-logo.png */,
+				B8B0A9601FCA1D20008D7CE5 /* axa_logo_solid_208.png */,
+				B8D0F20F1FCA283F0032B508 /* anytime-btm-logo.png */,
 			);
 			path = Pic;
 			sourceTree = "<group>";
@@ -171,14 +195,14 @@
 		B8B0A92B1FC9AA47008D7CE5 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
-				B8B0A9541FC9FE0E008D7CE5 /* icons8-car-filled-50.png */,
-				B8B0A9531FC9FE0E008D7CE5 /* icons8-heart-with-pulse-filled-50 (2).png */,
-				B8B0A9501FC9FE0E008D7CE5 /* icons8-heart-with-pulse-filled-50.png */,
-				B8B0A9521FC9FE0E008D7CE5 /* icons8-home-filled-50rrr.png */,
-				B8B0A9511FC9FE0E008D7CE5 /* icons8-motorcycle-filled-50rrr.png */,
-				B8B0A9431FC9C0A7008D7CE5 /* icons8-car-50.png */,
-				B8B0A9441FC9C0A7008D7CE5 /* icons8-home-filled-50.png */,
-				B8B0A9451FC9C0A8008D7CE5 /* icons8-motorcycle-filled-50.png */,
+				B8B0A96D1FCA21C7008D7CE5 /* bike round.png */,
+				B8B0A9691FCA21C3008D7CE5 /* health.png */,
+				B8B0A96B1FCA21C5008D7CE5 /* car.png */,
+				B8B0A9671FCA21C1008D7CE5 /* home.png */,
+				B8B0A9681FCA21C2008D7CE5 /* bike.png */,
+				B8B0A96A1FCA21C4008D7CE5 /* home round.png */,
+				B8B0A96C1FCA21C6008D7CE5 /* health round.png */,
+				B8B0A9661FCA21C0008D7CE5 /* car rounf.png */,
 				B8B0A92C1FC9AA47008D7CE5 /* 575934-200a1.png */,
 				B8B0A92D1FC9AA47008D7CE5 /* ambulance-icon-86015.png */,
 				B8B0A92E1FC9AA47008D7CE5 /* Elliot_Grievesona1.png */,
@@ -256,28 +280,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8B0A93C1FC9AA47008D7CE5 /* Home-icon_svg.png in Resources */,
-				B8B0A9591FC9FE0F008D7CE5 /* icons8-car-filled-50.png in Resources */,
 				B8B0A93E1FC9AA47008D7CE5 /* Webp.net-resizeimage-2.png in Resources */,
+				B8B0A9771FCA23CC008D7CE5 /* Screen Shot 2017-11-26 at 00.18.28.png in Resources */,
 				B8B0A90A1FC97D77008D7CE5 /* LaunchScreen.storyboard in Resources */,
 				B8B0A9391FC9AA47008D7CE5 /* exclamation-mark-98739_960_720a1 12-50-51-105.png in Resources */,
 				B8B0A9281FC9AA2F008D7CE5 /* feEBsVSI.jpg in Resources */,
+				B8B0A9721FCA21C7008D7CE5 /* home round.png in Resources */,
 				B8B0A93B1FC9AA47008D7CE5 /* form-autre.png in Resources */,
-				B8B0A9491FC9C0A8008D7CE5 /* icons8-motorcycle-filled-50.png in Resources */,
 				B8B0A9231FC9A818008D7CE5 /* GoogleService-Info.plist in Resources */,
 				B8B0A92A1FC9AA2F008D7CE5 /* print-logo.png in Resources */,
 				B8B0A93A1FC9AA47008D7CE5 /* fire.png in Resources */,
+				B8B0A9751FCA21C7008D7CE5 /* bike round.png in Resources */,
 				B8B0A9291FC9AA2F008D7CE5 /* ING_lion_RGB_200x200.png in Resources */,
-				B8B0A9471FC9C0A8008D7CE5 /* icons8-car-50.png in Resources */,
-				B8B0A9571FC9FE0F008D7CE5 /* icons8-home-filled-50rrr.png in Resources */,
+				B8B0A9611FCA1D20008D7CE5 /* axa_logo_solid_208.png in Resources */,
+				B8B0A96E1FCA21C7008D7CE5 /* car rounf.png in Resources */,
+				B8B0A9631FCA1D40008D7CE5 /* mm_logo-01.png in Resources */,
+				B8B0A9701FCA21C7008D7CE5 /* bike.png in Resources */,
 				B8B0A9361FC9AA47008D7CE5 /* 575934-200a1.png in Resources */,
 				B8B0A93D1FC9AA47008D7CE5 /* police-car-icon-5642-0.png in Resources */,
-				B8B0A9561FC9FE0F008D7CE5 /* icons8-motorcycle-filled-50rrr.png in Resources */,
 				B8B0A93F1FC9AA47008D7CE5 /* Webp.net-resizeimage.png in Resources */,
+				B8D0F2101FCA283F0032B508 /* anytime-btm-logo.png in Resources */,
 				B8B0A9071FC97D77008D7CE5 /* Assets.xcassets in Resources */,
+				B8B0A9731FCA21C7008D7CE5 /* car.png in Resources */,
 				B8B0A9371FC9AA47008D7CE5 /* ambulance-icon-86015.png in Resources */,
-				B8B0A9581FC9FE0F008D7CE5 /* icons8-heart-with-pulse-filled-50 (2).png in Resources */,
-				B8B0A9481FC9C0A8008D7CE5 /* icons8-home-filled-50.png in Resources */,
-				B8B0A9551FC9FE0F008D7CE5 /* icons8-heart-with-pulse-filled-50.png in Resources */,
+				B8B0A9741FCA21C7008D7CE5 /* health round.png in Resources */,
+				B8B0A9651FCA1D80008D7CE5 /* EUROLIFEfairfax-logo-01.png in Resources */,
+				B8B0A9711FCA21C7008D7CE5 /* health.png in Resources */,
+				B8B0A96F1FCA21C7008D7CE5 /* home.png in Resources */,
 				B8B0A9021FC97D77008D7CE5 /* Main.storyboard in Resources */,
 				B8B0A9381FC9AA47008D7CE5 /* Elliot_Grievesona1.png in Resources */,
 			);
@@ -347,10 +376,13 @@
 				B8B0A91F1FC9A1ED008D7CE5 /* EmergTableViewController.swift in Sources */,
 				B8B0A9191FC986E2008D7CE5 /* Login.swift in Sources */,
 				B8B0A9131FC9844F008D7CE5 /* Accident.swift in Sources */,
+				B8B0A9791FCA24D8008D7CE5 /* Info.swift in Sources */,
 				B8B0A94F1FC9FB96008D7CE5 /* PosOfInsuringTableViewController.swift in Sources */,
 				B8B0A9211FC9A21C008D7CE5 /* EmergOther.swift in Sources */,
+				B8B0A95B1FCA1712008D7CE5 /* SelectCompany.swift in Sources */,
 				B8B0A94D1FC9CCCE008D7CE5 /* NoteDetail.swift in Sources */,
 				B8B0A8FD1FC97D77008D7CE5 /* AppDelegate.swift in Sources */,
+				B8A762EB1FCA3607001E158C /* Validate.swift in Sources */,
 				B8B0A9051FC97D77008D7CE5 /* Insurhelp.xcdatamodeld in Sources */,
 				B8B0A9171FC9868A008D7CE5 /* Stor.swift in Sources */,
 				B8B0A94B1FC9C979008D7CE5 /* AddNote.swift in Sources */,

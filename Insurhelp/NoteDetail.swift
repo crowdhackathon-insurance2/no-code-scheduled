@@ -8,10 +8,19 @@
 
 import UIKit
 
+public var ContractIdNote: String!
+public var CompanieNote: String!
+
 class NoteDetail: UIViewController {
 
+    @IBOutlet var id: UILabel!
+    @IBOutlet var comp: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        id.text = ContractIdNote
+        comp.text = CompanieNote
         
         
         

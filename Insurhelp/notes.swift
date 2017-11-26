@@ -26,6 +26,11 @@ class notes: UITableViewController {
         super.viewDidLoad()
 
         ref = FIRDatabase.database().reference()
+        let h: CGFloat = self.view!.bounds.height
+        let h2: CGFloat = self.tabBarController!.tabBar.frame.height
+        let h3: CGFloat = (self.navigationController?.navigationBar.frame.height)!
+        let reald: CGFloat = (((h-h2)-h3)/4 ) - 5
+        tableView.rowHeight = reald
     }
 
     // MARK: - Table view data source
@@ -48,16 +53,25 @@ class notes: UITableViewController {
         cell?.title.text = note["name"] as! String
         let type = note["type"] as! String
         if type == "Car"{
-            cell?.img.image = #imageLiteral(resourceName: "icons8-car-50.png")
+            cell?.img.image = #imageLiteral(resourceName: "car.png")
         }else if (type == "Bikecycle"){
-            cell?.img.image = #imageLiteral(resourceName: "icons8-motorcycle-filled-50.png")
+            cell?.img.image = #imageLiteral(resourceName: "bike.png")
         }else if (type == "Health"){
-            cell?.img.image = #imageLiteral(resourceName: "icons8-heart-with-pulse-filled-50 (2).png")
+            cell?.img.image = #imageLiteral(resourceName: "health.png")
         }else if (type == "Home"){
-            cell?.img.image = #imageLiteral(resourceName: "icons8-home-filled-50.png")
+            cell?.img.image = #imageLiteral(resourceName: "home.png")
         }
 
         return cell!
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "detail", sender: tableView)
+        let note = NoteDic[String(describing: indexPath.row)] as! NSDictionary
+        let temp = note["contract"] as! NSDictionary
+        CompanieNote = temp["name"] as! String
+        ContractIdNote = temp["id"] as! String
+        
     }
     
     /*

@@ -30,7 +30,6 @@ class EmergTableViewController: UITableViewController {
     
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         

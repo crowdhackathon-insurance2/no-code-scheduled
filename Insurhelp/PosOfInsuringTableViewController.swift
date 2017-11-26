@@ -21,7 +21,7 @@ class PosOfInsuringTableViewController: UITableViewController {
 
     let types = ["Car","Motorcycle","Health","Home"]
     let adesc = ["","","",""]
-    let imga = [#imageLiteral(resourceName: "icons8-car-filled-50.png"),#imageLiteral(resourceName: "icons8-motorcycle-filled-50rrr.png"),#imageLiteral(resourceName: "icons8-heart-with-pulse-filled-50.png"),#imageLiteral(resourceName: "icons8-home-filled-50rrr.png")]
+    let imga = [#imageLiteral(resourceName: "car rounf.png"),#imageLiteral(resourceName: "bike round.png"),#imageLiteral(resourceName: "health round.png"),#imageLiteral(resourceName: "home round.png")]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +29,7 @@ class PosOfInsuringTableViewController: UITableViewController {
         let h: CGFloat = self.view!.bounds.height
         let h2: CGFloat = self.tabBarController!.tabBar.frame.height
         let h3: CGFloat = (self.navigationController?.navigationBar.frame.height)!
-        let reald: CGFloat = (((h-h2)-h3)/4 ) - 10
+        let reald: CGFloat = (((h-h2)-h3)/4 ) - 5
         tableView.rowHeight = reald
         
     }
@@ -56,6 +56,13 @@ class PosOfInsuringTableViewController: UITableViewController {
         cell?.img.image = imga[indexPath.row]
 
         return cell!
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        InsuringPosOfCons = types[indexPath.row]
+        performSegue(withIdentifier: "plan", sender: tableView)
+        
     }
     
 
