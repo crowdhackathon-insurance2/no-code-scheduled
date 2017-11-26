@@ -12,10 +12,18 @@ import UIKit
 
 class Validate: UIViewController {
 
+    @IBOutlet weak var scrollView: UILabel!
+    @IBOutlet weak var procced: UIButton!
+    @IBOutlet weak var cancel: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        scrollView.text = "First Name: John\nLast Name: Appleseed\nAddress: Agg. Sikeianou \nNumber: 3\nPostal Code: 15126\n...\n..."
+        procced.layer.cornerRadius = 5
+        procced.clipsToBounds = true
+        cancel.layer.cornerRadius = 5
+        cancel.clipsToBounds = true
     }
 
     override func didReceiveMemoryWarning() {

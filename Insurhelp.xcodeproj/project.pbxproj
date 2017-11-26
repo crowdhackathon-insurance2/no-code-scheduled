@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B800279A1FCAE6B600EC1677 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80027991FCAE6B600EC1677 /* Account.swift */; };
 		B800279C1FCAF28B00EC1677 /* ICONS YOU MUST TAKE THIS TIME in Resources */ = {isa = PBXBuildFile; fileRef = B800279B1FCAF28A00EC1677 /* ICONS YOU MUST TAKE THIS TIME */; };
-		B816D5E61FCAC9ED0056DB69 /* AdMob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816D5E51FCAC9ED0056DB69 /* AdMob.swift */; };
+		B800279F1FCB04AB00EC1677 /* ethniki_asfal_300x1001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B800279E1FCB04AA00EC1677 /* ethniki_asfal_300x1001.jpg */; };
+		B80027A31FCB05B500EC1677 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80027A21FCB05B500EC1677 /* Account.swift */; };
+		B80027A51FCB068A00EC1677 /* facebook-avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B80027A41FCB068A00EC1677 /* facebook-avatar.jpg */; };
+		B80027A71FCB0F8A00EC1677 /* if_basket_322420.png in Resources */ = {isa = PBXBuildFile; fileRef = B80027A61FCB0F8A00EC1677 /* if_basket_322420.png */; };
 		B81B66281FCAA4700038B0AD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B66271FCAA4700038B0AD /* Home.swift */; };
 		B81B662C1FCAADC90038B0AD /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B662B1FCAADC90038B0AD /* News.swift */; };
 		B867FC991FCAC49B00AE3462 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = B867FC981FCAC49B00AE3462 /* Events.swift */; };
@@ -62,10 +64,11 @@
 
 /* Begin PBXFileReference section */
 		2756628DD36A28CA27EDE645 /* Pods-Insurhelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insurhelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp.release.xcconfig"; sourceTree = "<group>"; };
-		B80027991FCAE6B600EC1677 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Account.swift; path = "/Users/georgezaimis/Documents/DEV. FILS/Insurhelp/Insurhelp/Account.swift"; sourceTree = "<absolute>"; };
 		B800279B1FCAF28A00EC1677 /* ICONS YOU MUST TAKE THIS TIME */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ICONS YOU MUST TAKE THIS TIME"; sourceTree = "<group>"; };
-		B800279D1FCAF5B400EC1677 /* prof.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prof.jpg; sourceTree = "<group>"; };
-		B816D5E51FCAC9ED0056DB69 /* AdMob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMob.swift; sourceTree = "<group>"; };
+		B800279E1FCB04AA00EC1677 /* ethniki_asfal_300x1001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ethniki_asfal_300x1001.jpg; sourceTree = "<group>"; };
+		B80027A21FCB05B500EC1677 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Account.swift; path = "/Users/georgezaimis/Documents/DEV. FILS/Insurhelp/Insurhelp/Account.swift"; sourceTree = "<absolute>"; };
+		B80027A41FCB068A00EC1677 /* facebook-avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "facebook-avatar.jpg"; sourceTree = "<group>"; };
+		B80027A61FCB0F8A00EC1677 /* if_basket_322420.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = if_basket_322420.png; sourceTree = "<group>"; };
 		B81B66271FCAA4700038B0AD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		B81B662B1FCAADC90038B0AD /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		B867FC981FCAC49B00AE3462 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
@@ -172,8 +175,7 @@
 		B8B0A8FB1FC97D77008D7CE5 /* Insurhelp */ = {
 			isa = PBXGroup;
 			children = (
-				B80027991FCAE6B600EC1677 /* Account.swift */,
-				B816D5E51FCAC9ED0056DB69 /* AdMob.swift */,
+				B80027A21FCB05B500EC1677 /* Account.swift */,
 				B867FC981FCAC49B00AE3462 /* Events.swift */,
 				B81B662B1FCAADC90038B0AD /* News.swift */,
 				B81B66271FCAA4700038B0AD /* Home.swift */,
@@ -203,7 +205,9 @@
 		B8B0A9241FC9AA2E008D7CE5 /* Pic */ = {
 			isa = PBXGroup;
 			children = (
-				B800279D1FCAF5B400EC1677 /* prof.jpg */,
+				B800279E1FCB04AA00EC1677 /* ethniki_asfal_300x1001.jpg */,
+				B80027A41FCB068A00EC1677 /* facebook-avatar.jpg */,
+				B80027A61FCB0F8A00EC1677 /* if_basket_322420.png */,
 				B8B0A9621FCA1D40008D7CE5 /* mm_logo-01.png */,
 				B8B0A9251FC9AA2E008D7CE5 /* feEBsVSI.jpg */,
 				B8B0A9261FC9AA2E008D7CE5 /* ING_lion_RGB_200x200.png */,
@@ -306,10 +310,13 @@
 				B8B0A93C1FC9AA47008D7CE5 /* Home-icon_svg.png in Resources */,
 				B8B0A93E1FC9AA47008D7CE5 /* Webp.net-resizeimage-2.png in Resources */,
 				B8B0A9771FCA23CC008D7CE5 /* Screen Shot 2017-11-26 at 00.18.28.png in Resources */,
+				B80027A71FCB0F8A00EC1677 /* if_basket_322420.png in Resources */,
 				B8B0A90A1FC97D77008D7CE5 /* LaunchScreen.storyboard in Resources */,
 				B8B0A9391FC9AA47008D7CE5 /* exclamation-mark-98739_960_720a1 12-50-51-105.png in Resources */,
 				B8B0A9281FC9AA2F008D7CE5 /* feEBsVSI.jpg in Resources */,
 				B8B0A9721FCA21C7008D7CE5 /* home round.png in Resources */,
+				B800279F1FCB04AB00EC1677 /* ethniki_asfal_300x1001.jpg in Resources */,
+				B80027A51FCB068A00EC1677 /* facebook-avatar.jpg in Resources */,
 				B8B0A93B1FC9AA47008D7CE5 /* form-autre.png in Resources */,
 				B8B0A9231FC9A818008D7CE5 /* GoogleService-Info.plist in Resources */,
 				B8B0A92A1FC9AA2F008D7CE5 /* print-logo.png in Resources */,
@@ -409,6 +416,7 @@
 				B81B662C1FCAADC90038B0AD /* News.swift in Sources */,
 				B8B0A9131FC9844F008D7CE5 /* Accident.swift in Sources */,
 				B8B0A9791FCA24D8008D7CE5 /* Info.swift in Sources */,
+				B80027A31FCB05B500EC1677 /* Account.swift in Sources */,
 				B8B0A94F1FC9FB96008D7CE5 /* PosOfInsuringTableViewController.swift in Sources */,
 				B8B0A9211FC9A21C008D7CE5 /* EmergOther.swift in Sources */,
 				B8B0A95B1FCA1712008D7CE5 /* SelectCompany.swift in Sources */,
@@ -417,11 +425,9 @@
 				B8B0A8FD1FC97D77008D7CE5 /* AppDelegate.swift in Sources */,
 				B8A762EB1FCA3607001E158C /* Validate.swift in Sources */,
 				B8B0A9051FC97D77008D7CE5 /* Insurhelp.xcdatamodeld in Sources */,
-				B816D5E61FCAC9ED0056DB69 /* AdMob.swift in Sources */,
 				B8B0A9171FC9868A008D7CE5 /* Stor.swift in Sources */,
 				B867FC991FCAC49B00AE3462 /* Events.swift in Sources */,
 				B8B0A94B1FC9C979008D7CE5 /* AddNote.swift in Sources */,
-				B800279A1FCAE6B600EC1677 /* Account.swift in Sources */,
 				B8B0A9411FC9AF74008D7CE5 /* notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

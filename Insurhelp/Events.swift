@@ -56,7 +56,10 @@ class Events: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        
+//        performSegue(withIdentifier: "notes", sender: tableView)
+//        ContractIdNote = "vvjbvj7fw3b2da"
+//        CompanieNote = "anytime"
+//        Name = "Honda"
         
     }
 
