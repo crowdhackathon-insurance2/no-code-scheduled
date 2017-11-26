@@ -1,37 +1,35 @@
-//
-//  notes.swift
+//ev
+//  Events.swift
 //  Insurhelp
 //
-//  Created by George on 25/11/2017.
+//  Created by George on 26/11/2017.
 //  Copyright © 2017 George Zaimis. All rights reserved.
 //
 
 import UIKit
-import FirebaseDatabase
 import FirebaseAuth
+import FirebaseDatabase
 
-class notesen: UITableViewCell{
+let ti = ["Insurance contract","KTEO","Service"]
+let da = ["1/12/17","12/2/18","6/7/18"]
+
+class EventsCells: UITableViewCell{
     
-    @IBOutlet var img: UIImageView!
+    @IBOutlet var EvTitle: UILabel!
+    @IBOutlet var EvDate: UILabel!
     
-    @IBOutlet var property: UILabel!
-    @IBOutlet var title: UILabel!
 }
 
-class notes: UITableViewController {
+class Events: UITableViewController {
 
-    
-    var ref: DatabaseReference!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.rowHeight = 350 / 3
 
-        ref = Database.database().reference()
-        let h: CGFloat = self.view!.bounds.height
-        let h2: CGFloat = self.tabBarController!.tabBar.frame.height
-        let h3: CGFloat = (self.navigationController?.navigationBar.frame.height)!
-        let reald: CGFloat = (((h-h2)-h3)/4 ) - 5
-        tableView.rowHeight = reald
+    
     }
+
 
     // MARK: - Table view data source
 
@@ -41,40 +39,27 @@ class notes: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return (NoteDic?["Num"] as! Int) + 1
+
+        return 3
+        
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? notesen
-
-        let note = NoteDic[String(describing: indexPath.row)] as! NSDictionary
-        cell?.title.text = note["name"] as! String
-        let type = note["type"] as! String
-        if type == "Car"{
-            cell?.img.image = #imageLiteral(resourceName: "car.png")
-        }else if (type == "Bikecycle"){
-            cell?.img.image = #imageLiteral(resourceName: "bike.png")
-        }else if (type == "Health"){
-            cell?.img.image = #imageLiteral(resourceName: "health.png")
-        }else if (type == "Home"){
-            cell?.img.image = #imageLiteral(resourceName: "home.png")
-        }
-
-        return cell!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! EventsCells
+        
+        cell.EvTitle.text = ti[indexPath.row]
+        cell.EvDate.text = da[indexPath.row]
+        
+        return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "detail", sender: tableView)
-        let note = NoteDic[String(describing: indexPath.row)] as! NSDictionary
-        let temp = note["contract"] as! NSDictionary
-        CompanieNote = temp["name"] as! String
-        ContractIdNote = temp["id"] as! String
-        Name = note["name"] as! String
+        
+        
         
     }
-    
+
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

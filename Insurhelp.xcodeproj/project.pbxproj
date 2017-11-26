@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B800279A1FCAE6B600EC1677 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80027991FCAE6B600EC1677 /* Account.swift */; };
+		B800279C1FCAF28B00EC1677 /* ICONS YOU MUST TAKE THIS TIME in Resources */ = {isa = PBXBuildFile; fileRef = B800279B1FCAF28A00EC1677 /* ICONS YOU MUST TAKE THIS TIME */; };
+		B816D5E61FCAC9ED0056DB69 /* AdMob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816D5E51FCAC9ED0056DB69 /* AdMob.swift */; };
 		B81B66281FCAA4700038B0AD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B66271FCAA4700038B0AD /* Home.swift */; };
 		B81B662C1FCAADC90038B0AD /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81B662B1FCAADC90038B0AD /* News.swift */; };
+		B867FC991FCAC49B00AE3462 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = B867FC981FCAC49B00AE3462 /* Events.swift */; };
 		B8A762EB1FCA3607001E158C /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A762EA1FCA3607001E158C /* Validate.swift */; };
 		B8B0A8FD1FC97D77008D7CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A8FC1FC97D77008D7CE5 /* AppDelegate.swift */; };
 		B8B0A9021FC97D77008D7CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9001FC97D77008D7CE5 /* Main.storyboard */; };
@@ -53,15 +57,18 @@
 		B8B0A9771FCA23CC008D7CE5 /* Screen Shot 2017-11-26 at 00.18.28.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B0A9761FCA23CB008D7CE5 /* Screen Shot 2017-11-26 at 00.18.28.png */; };
 		B8B0A9791FCA24D8008D7CE5 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B0A9781FCA24D8008D7CE5 /* Info.swift */; };
 		B8D0F2101FCA283F0032B508 /* anytime-btm-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B8D0F20F1FCA283F0032B508 /* anytime-btm-logo.png */; };
-		DE44AF8D694B28C05CAF405A /* Pods_Insurhelp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C6F10168F92D5475FF068AD /* Pods_Insurhelp.framework */; };
+		CED04DD28B6B62486200A446 /* Pods_Insurhelp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0A413425BB0B228ED07890 /* Pods_Insurhelp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		059E773E3443E906597B98BD /* Pods-Insurhelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insurhelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp.release.xcconfig"; sourceTree = "<group>"; };
-		1C6F10168F92D5475FF068AD /* Pods_Insurhelp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insurhelp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F6ED4B3985498C65E2DC681 /* Pods-Insurhelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insurhelp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp.debug.xcconfig"; sourceTree = "<group>"; };
+		2756628DD36A28CA27EDE645 /* Pods-Insurhelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insurhelp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp.release.xcconfig"; sourceTree = "<group>"; };
+		B80027991FCAE6B600EC1677 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Account.swift; path = "/Users/georgezaimis/Documents/DEV. FILS/Insurhelp/Insurhelp/Account.swift"; sourceTree = "<absolute>"; };
+		B800279B1FCAF28A00EC1677 /* ICONS YOU MUST TAKE THIS TIME */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ICONS YOU MUST TAKE THIS TIME"; sourceTree = "<group>"; };
+		B800279D1FCAF5B400EC1677 /* prof.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = prof.jpg; sourceTree = "<group>"; };
+		B816D5E51FCAC9ED0056DB69 /* AdMob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMob.swift; sourceTree = "<group>"; };
 		B81B66271FCAA4700038B0AD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		B81B662B1FCAADC90038B0AD /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		B867FC981FCAC49B00AE3462 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		B8A762EA1FCA3607001E158C /* Validate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validate.swift; sourceTree = "<group>"; };
 		B8B0A8F91FC97D77008D7CE5 /* Insurhelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insurhelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B0A8FC1FC97D77008D7CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +115,8 @@
 		B8B0A9761FCA23CB008D7CE5 /* Screen Shot 2017-11-26 at 00.18.28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-26 at 00.18.28.png"; sourceTree = "<group>"; };
 		B8B0A9781FCA24D8008D7CE5 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		B8D0F20F1FCA283F0032B508 /* anytime-btm-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "anytime-btm-logo.png"; sourceTree = "<group>"; };
+		EC0563A6C23F983E5DC7B84F /* Pods-Insurhelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insurhelp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0A413425BB0B228ED07890 /* Pods_Insurhelp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Insurhelp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,28 +124,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE44AF8D694B28C05CAF405A /* Pods_Insurhelp.framework in Frameworks */,
+				CED04DD28B6B62486200A446 /* Pods_Insurhelp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6200F58326B0BE6037712C0D /* Frameworks */ = {
+		2A8AD5161F998B137996D4C9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1C6F10168F92D5475FF068AD /* Pods_Insurhelp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A1228D265EE11ACDF778C175 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2F6ED4B3985498C65E2DC681 /* Pods-Insurhelp.debug.xcconfig */,
-				059E773E3443E906597B98BD /* Pods-Insurhelp.release.xcconfig */,
+				EC0563A6C23F983E5DC7B84F /* Pods-Insurhelp.debug.xcconfig */,
+				2756628DD36A28CA27EDE645 /* Pods-Insurhelp.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		46E8769BD29F9B455026AA27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA0A413425BB0B228ED07890 /* Pods_Insurhelp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B8B0A8F01FC97D77008D7CE5 = {
@@ -144,10 +153,11 @@
 			children = (
 				B8B0A8FB1FC97D77008D7CE5 /* Insurhelp */,
 				B8B0A8FA1FC97D77008D7CE5 /* Products */,
-				A1228D265EE11ACDF778C175 /* Pods */,
-				6200F58326B0BE6037712C0D /* Frameworks */,
 				B8B0A9241FC9AA2E008D7CE5 /* Pic */,
 				B8B0A92B1FC9AA47008D7CE5 /* Icons */,
+				2A8AD5161F998B137996D4C9 /* Pods */,
+				B800279B1FCAF28A00EC1677 /* ICONS YOU MUST TAKE THIS TIME */,
+				46E8769BD29F9B455026AA27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,12 +172,15 @@
 		B8B0A8FB1FC97D77008D7CE5 /* Insurhelp */ = {
 			isa = PBXGroup;
 			children = (
+				B80027991FCAE6B600EC1677 /* Account.swift */,
+				B816D5E51FCAC9ED0056DB69 /* AdMob.swift */,
+				B867FC981FCAC49B00AE3462 /* Events.swift */,
 				B81B662B1FCAADC90038B0AD /* News.swift */,
 				B81B66271FCAA4700038B0AD /* Home.swift */,
 				B8A762EA1FCA3607001E158C /* Validate.swift */,
 				B8B0A9781FCA24D8008D7CE5 /* Info.swift */,
-				B8B0A95A1FCA1712008D7CE5 /* SelectCompany.swift */,
 				B8B0A94E1FC9FB96008D7CE5 /* PosOfInsuringTableViewController.swift */,
+				B8B0A95A1FCA1712008D7CE5 /* SelectCompany.swift */,
 				B8B0A94C1FC9CCCE008D7CE5 /* NoteDetail.swift */,
 				B8B0A94A1FC9C979008D7CE5 /* AddNote.swift */,
 				B8B0A9401FC9AF74008D7CE5 /* notes.swift */,
@@ -190,6 +203,7 @@
 		B8B0A9241FC9AA2E008D7CE5 /* Pic */ = {
 			isa = PBXGroup;
 			children = (
+				B800279D1FCAF5B400EC1677 /* prof.jpg */,
 				B8B0A9621FCA1D40008D7CE5 /* mm_logo-01.png */,
 				B8B0A9251FC9AA2E008D7CE5 /* feEBsVSI.jpg */,
 				B8B0A9261FC9AA2E008D7CE5 /* ING_lion_RGB_200x200.png */,
@@ -234,12 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8B0A90E1FC97D77008D7CE5 /* Build configuration list for PBXNativeTarget "Insurhelp" */;
 			buildPhases = (
-				F033654BF4E67FB063EE61F0 /* [CP] Check Pods Manifest.lock */,
+				ED1313E4DEDD0B10536D6FF1 /* [CP] Check Pods Manifest.lock */,
 				B8B0A8F51FC97D77008D7CE5 /* Sources */,
 				B8B0A8F61FC97D77008D7CE5 /* Frameworks */,
 				B8B0A8F71FC97D77008D7CE5 /* Resources */,
-				0BFE32E34A5417BAA96040DD /* [CP] Embed Pods Frameworks */,
-				CE25C0D3F96D845EA03864C7 /* [CP] Copy Pods Resources */,
+				750444E4D6BE407B63AEC7A8 /* [CP] Embed Pods Frameworks */,
+				4DCAC878C037C5907BA461CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,6 +325,7 @@
 				B8B0A93F1FC9AA47008D7CE5 /* Webp.net-resizeimage.png in Resources */,
 				B8D0F2101FCA283F0032B508 /* anytime-btm-logo.png in Resources */,
 				B8B0A9071FC97D77008D7CE5 /* Assets.xcassets in Resources */,
+				B800279C1FCAF28B00EC1677 /* ICONS YOU MUST TAKE THIS TIME in Resources */,
 				B8B0A9731FCA21C7008D7CE5 /* car.png in Resources */,
 				B8B0A9371FC9AA47008D7CE5 /* ambulance-icon-86015.png in Resources */,
 				B8B0A9741FCA21C7008D7CE5 /* health round.png in Resources */,
@@ -325,7 +340,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0BFE32E34A5417BAA96040DD /* [CP] Embed Pods Frameworks */ = {
+		4DCAC878C037C5907BA461CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		750444E4D6BE407B63AEC7A8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,25 +379,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CE25C0D3F96D845EA03864C7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Insurhelp/Pods-Insurhelp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F033654BF4E67FB063EE61F0 /* [CP] Check Pods Manifest.lock */ = {
+		ED1313E4DEDD0B10536D6FF1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -405,8 +417,11 @@
 				B8B0A8FD1FC97D77008D7CE5 /* AppDelegate.swift in Sources */,
 				B8A762EB1FCA3607001E158C /* Validate.swift in Sources */,
 				B8B0A9051FC97D77008D7CE5 /* Insurhelp.xcdatamodeld in Sources */,
+				B816D5E61FCAC9ED0056DB69 /* AdMob.swift in Sources */,
 				B8B0A9171FC9868A008D7CE5 /* Stor.swift in Sources */,
+				B867FC991FCAC49B00AE3462 /* Events.swift in Sources */,
 				B8B0A94B1FC9C979008D7CE5 /* AddNote.swift in Sources */,
+				B800279A1FCAE6B600EC1677 /* Account.swift in Sources */,
 				B8B0A9411FC9AF74008D7CE5 /* notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,7 +557,7 @@
 		};
 		B8B0A90F1FC97D77008D7CE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F6ED4B3985498C65E2DC681 /* Pods-Insurhelp.debug.xcconfig */;
+			baseConfigurationReference = EC0563A6C23F983E5DC7B84F /* Pods-Insurhelp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -559,7 +574,7 @@
 		};
 		B8B0A9101FC97D77008D7CE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 059E773E3443E906597B98BD /* Pods-Insurhelp.release.xcconfig */;
+			baseConfigurationReference = 2756628DD36A28CA27EDE645 /* Pods-Insurhelp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

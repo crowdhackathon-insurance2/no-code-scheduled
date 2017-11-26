@@ -21,16 +21,16 @@ class AddNote: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate  {
     
     let types = ["Car","Motorcycle","Health","Home"]
     var type = "Car"
-    var ref: FIRDatabaseReference!
+    var ref: DatabaseReference!
     var curr: Int!
-    let user = FIRAuth.auth()?.currentUser?.uid
+    let user = Auth.auth().currentUser?.uid
     override func viewDidLoad() {
         super.viewDidLoad()
 
         addBtn.layer.cornerRadius = 5
         addBtn.clipsToBounds = true
         curr = NoteDic["Num"] as? Int
-        ref = FIRDatabase.database().reference()
+        ref = Database.database().reference()
         
     }
     

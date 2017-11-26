@@ -1,0 +1,6 @@
+framework module Pods_Insurhelp {
+  umbrella header "Pods-Insurhelp-umbrella.h"
+
+  export *
+  module * { export * }
+}
